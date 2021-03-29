@@ -1,5 +1,6 @@
 import calc
 
-b = int(input())
-h = int(input())
-print(calc.get_area(b, h))
+print("面積計算アプリ")
+b = int(input("底辺："))
+h = int(input("高さ："))
+print(f"面積：{calc.get_area(b, h)}")
